@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:lightgrey;"></body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          li {
+            float: left;
+          }
+
+          li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+                li a:hover, .dropdown:hover .dropbtn {
+        background-color: black;
+      }
+
+      li.dropdown {
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {background-color: black}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+          
+          </style>
+          </head>
+          <body>
+          
+          <ul>
+       <li><a class="active" href="index.html">Home</a></li>
+       <li><a href="pagina2.html">Informatie</a></li>
+       <li><a href="pagina4.html">Contact</a></li>
+       <li class="dropdown">
+       <a href="javascript:void(0)" class="dropbtn">Onze voertuigen</a>
+       <div class="dropdown-content">
+         <a href="#">Auto's</a>
+         <a href="#">Busjes</a>
+         <a href="#">Vrachtwagens</a>
+        </div>
+   </li>
+        </ul>
+    </head>
+    <body>
+ <h1 style="font-family:Georgia, 'Times New Roman', Times, serif">Mercedes</h1>
+ <p style="font-family:Georgia, 'Times New Roman', Times, serif">Hieronder ziet u verschillende Mercedes modellen</p>
+
+        <div class="image-grid">
+            <img class="image-grid-col-2 image-grid-row-2"src="https://www.mercedes-benz.nl/passengercars/mercedes-benz-cars/amg-gt/_jcr_content/par/textimagecombination_1396635421/image.MQ6.12.image.20200904153256.jpeg" alt="domme mercedes">
+            <img src="https://www.daimler.com/bilder/produkte/pkw/mercedes-benz/a-klasse/a-class-2018-2-w614xh345-cutout.jpg" alt="hele mooie tijger in het bos">
+            <img src="https://media.autoweek.nl/m/fobybmab200c_800.jpg" alt="maybach">
+            <img src="https://www.mercedes-benz.nl/passengercars/mercedes-benz-cars/models/g-class/suv-w463/amg/exterior-design/_jcr_content/par/doubleimagecombinati/par/doubleimageelement_275896194/asset.MQ6.12.20191219153138.jpeg" alt="merrie">
+            <img src="https://media.autoweek.nl/m/t7tyonib4sz5_800.jpg" alt="merrie">
+        </div>
+        
+
+        
+
+    </body>
+</html>
